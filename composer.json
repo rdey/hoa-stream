@@ -1,5 +1,5 @@
 {
-    "name"       : "hoa/stream",
+    "name"       : "redeye/hoa-stream",
     "description": "The Hoa\\Stream library.",
     "type"       : "library",
     "keywords"   : ["library", "stream", "bucket", "composite", "context",
@@ -22,6 +22,9 @@
         "forum" : "https://users.hoa-project.net/",
         "docs"  : "https://central.hoa-project.net/Documentation/Library/Stream",
         "source": "https://central.hoa-project.net/Resource/Library/Stream"
+    },
+    "replace": {
+        "hoa/stream": "1.18.0"
     },
     "require": {
         "hoa/consistency": "~1.0",
